@@ -1,0 +1,105 @@
+/* body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.header-container {
+    background-color: black;
+    height: 100%;
+    width: 60%;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    width: 1024px;
+}
+
+.navbar {
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px; 
+    padding: 15px;
+}
+
+.infoblock {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.menu > li {
+    list-style-type: none;
+}
+
+.menu > li > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(152, 149, 149);
+    font-weight: bold;
+}
+
+.menu > li > a:hover {
+    color: black;
+}
+
+.info_name {
+    display: flex;
+    align-items: end;
+    font-weight: bolder;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align:unset;
+    line-height: 50px;
+}
+
+.info_aboutme {
+    display: flex;
+    align-items: end;
+}
+
+.info_ru-eng {
+    display: flex;
+    align-items: end;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+}
+
+img {
+    margin: 50px 0;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 80% 33%;
+}
